@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int ft_str_is_lowercase(char *str)
+int ft_str_is_uppercase(char *str)
 {
     int    i;
     i = 0;
@@ -22,5 +22,5 @@ int ft_str_is_lowercase(char *str)
 int main()
 {
     char src[] = "HELLO";
-    ft_str_is_lowercase(src);
+    ft_str_is_uppercase(src);
 }
